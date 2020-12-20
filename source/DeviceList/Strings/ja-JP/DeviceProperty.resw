@@ -1,0 +1,276 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="System_Devices_Children" xml:space="preserve">
+    <value>子デバイス</value>
+  </data>
+  <data name="System_Devices_CompatibleIds" xml:space="preserve">
+    <value>互換性 ID</value>
+  </data>
+  <data name="System_Devices_Connected" xml:space="preserve">
+    <value />
+  </data>
+  <data name="System_Devices_ContainerId" xml:space="preserve">
+    <value>コンテナー ID</value>
+  </data>
+  <data name="System_Devices_DeviceCapabilities" xml:space="preserve">
+    <value>機能</value>
+  </data>
+  <data name="System_Devices_DeviceCharacteristics" xml:space="preserve">
+    <value />
+  </data>
+  <data name="System_Devices_DeviceDescription1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="System_Devices_DeviceDescription2" xml:space="preserve">
+    <value />
+  </data>
+  <data name="System_Devices_DeviceHasProblem" xml:space="preserve">
+    <value>問題があるか?</value>
+  </data>
+  <data name="System_Devices_DeviceInstanceId" xml:space="preserve">
+    <value>デバイス インスタンス ID</value>
+  </data>
+  <data name="System_Devices_DiscoveryMethod" xml:space="preserve">
+    <value>トランスポート</value>
+  </data>
+  <data name="System_Devices_FriendlyName" xml:space="preserve">
+    <value>フレンドリ名</value>
+  </data>
+  <data name="System_Devices_HardwareIds" xml:space="preserve">
+    <value>ハードウェア ID</value>
+  </data>
+  <data name="System_Devices_Icon" xml:space="preserve">
+    <value />
+  </data>
+  <data name="System_Devices_InLocalMachineContainer" xml:space="preserve">
+    <value />
+  </data>
+  <data name="System_Devices_IsDefault" xml:space="preserve">
+    <value />
+  </data>
+  <data name="System_Devices_IsNetworkConnected" xml:space="preserve">
+    <value />
+  </data>
+  <data name="System_Devices_IsShared" xml:space="preserve">
+    <value />
+  </data>
+  <data name="System_Devices_LaunchDeviceStageFromExplorer" xml:space="preserve">
+    <value />
+  </data>
+  <data name="System_Devices_LocalMachine" xml:space="preserve">
+    <value />
+  </data>
+  <data name="System_Devices_Manufacturer" xml:space="preserve">
+    <value>製造元</value>
+  </data>
+  <data name="System_Devices_MetadataPath" xml:space="preserve">
+    <value />
+  </data>
+  <data name="System_Devices_ModelName" xml:space="preserve">
+    <value>モデル名</value>
+  </data>
+  <data name="System_Devices_ModelNumber" xml:space="preserve">
+    <value>モデル番号</value>
+  </data>
+  <data name="System_Devices_NotWorkingProperly" xml:space="preserve">
+    <value />
+  </data>
+  <data name="System_Devices_Paired" xml:space="preserve">
+    <value />
+  </data>
+  <data name="System_Devices_Category" xml:space="preserve">
+    <value />
+  </data>
+  <data name="System_ItemNameDisplay" xml:space="preserve">
+    <value>表示名</value>
+  </data>
+  <data name="{4340a6c5-93fa-4706-972c-7b648008a5a7} 12" xml:space="preserve">
+    <value>問題ステータス</value>
+    <comment>DEVPKEY_Device_ProblemStatus</comment>
+  </data>
+  <data name="{4340a6c5-93fa-4706-972c-7b648008a5a7} 2" xml:space="preserve">
+    <value>DevNode ステータス</value>
+    <comment>DEVPKEY_Device_DevNodeStatus</comment>
+  </data>
+  <data name="{4340a6c5-93fa-4706-972c-7b648008a5a7} 3" xml:space="preserve">
+    <value>問題コード</value>
+    <comment>DEVPKEY_Device_ProblemCode</comment>
+  </data>
+  <data name="{78c34fc8-104a-4aca-9ea4-524d52996e57} 90" xml:space="preserve">
+    <value>カテゴリ</value>
+    <comment>DEVPKEY_DeviceContainer_Category</comment>
+  </data>
+  <data name="{78c34fc8-104a-4aca-9ea4-524d52996e57} 97" xml:space="preserve">
+    <value>プライマリーカテゴリ</value>
+    <comment>DEVPKEY_DeviceContainer_PrimaryCategory</comment>
+  </data>
+  <data name="{83da6326-97a6-4088-9453-a1923f573b29} 100" xml:space="preserve">
+    <value>インストール日</value>
+    <comment>DEVPKEY_Device_InstallDate</comment>
+  </data>
+  <data name="{83da6326-97a6-4088-9453-a1923f573b29} 101" xml:space="preserve">
+    <value>初回インストール日</value>
+    <comment>DEVPKEY_Device_FirstInstallDate</comment>
+  </data>
+  <data name="{83da6326-97a6-4088-9453-a1923f573b29} 102" xml:space="preserve">
+    <value>最後に接続した日</value>
+    <comment>DEVPKEY_Device_LastArrivalDate</comment>
+  </data>
+  <data name="{83da6326-97a6-4088-9453-a1923f573b29} 103" xml:space="preserve">
+    <value>最後に取り外した日</value>
+    <comment>DEVPKEY_Device_LastRemovalDate</comment>
+  </data>
+  <data name="{a45c254e-df1c-4efd-8020-67d146a850e0} 10" xml:space="preserve">
+    <value>デバイス クラス GUID</value>
+    <comment>DEVPKEY_Device_ClassGuid</comment>
+  </data>
+  <data name="{a45c254e-df1c-4efd-8020-67d146a850e0} 11" xml:space="preserve">
+    <value>ドライバー</value>
+    <comment>DEVPKEY_Device_Driver</comment>
+  </data>
+  <data name="{a45c254e-df1c-4efd-8020-67d146a850e0} 13" xml:space="preserve">
+    <value>製造元</value>
+    <comment>DEVPKEY_Device_Manufacturer</comment>
+  </data>
+  <data name="{a45c254e-df1c-4efd-8020-67d146a850e0} 2" xml:space="preserve">
+    <value>デバイスの説明</value>
+    <comment>DEVPKEY_Device_DeviceDesc</comment>
+  </data>
+  <data name="{a45c254e-df1c-4efd-8020-67d146a850e0} 9" xml:space="preserve">
+    <value>デバイス クラス</value>
+    <comment>DEVPKEY_Device_Class</comment>
+  </data>
+  <data name="{a8b865dd-2e3d-4094-ad97-e593a70c75d6} 2" xml:space="preserve">
+    <value>ドライバーのアセンブリ日</value>
+    <comment>DEVPKEY_Device_DriverDate</comment>
+  </data>
+  <data name="{a8b865dd-2e3d-4094-ad97-e593a70c75d6} 3" xml:space="preserve">
+    <value>ドライバーのアセンブリ バージョン</value>
+    <comment>DEVPKEY_Device_DriverVersion</comment>
+  </data>
+  <data name="{a8b865dd-2e3d-4094-ad97-e593a70c75d6} 4" xml:space="preserve">
+    <value>ドライバーのアセンブリの説明</value>
+    <comment>DEVPKEY_Device_DriverDesc</comment>
+  </data>
+  <data name="{a8b865dd-2e3d-4094-ad97-e593a70c75d6} 9" xml:space="preserve">
+    <value>ドライバー プロバイダー</value>
+    <comment>DEVPKEY_Device_DriverProvider</comment>
+  </data>
+</root>

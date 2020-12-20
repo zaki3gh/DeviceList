@@ -1,0 +1,30 @@
+﻿<Application
+    x:Class="MyApps.DeviceList.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:MyApps.DeviceList"
+    xmlns:localData="using:MyApps.DeviceList.Data"
+    xmlns:common="using:MyApps.DeviceList.Common"
+    RequestedTheme="Light">
+
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+
+                <!-- 
+                    プラットフォームの外観の共通の要素を定義するスタイル
+                    Visual Studio プロジェクトおよびアイテム テンプレートで必要です
+                 -->
+                <ResourceDictionary Source="Common/StandardStyles.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+
+            <!--アプリケーション固有のリソース -->
+            <common:BooleanToVisibilityConverter x:Key="TrueIsVisibleConverter" />
+            <common:NegativeBooleanToVisibilityConverter x:Key="FalseIsVisibleConverter" />
+            
+            <!-- このアプリ固有の文字列リソース -->
+            <local:MyStringResources x:Key="MyStringResource" />
+
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

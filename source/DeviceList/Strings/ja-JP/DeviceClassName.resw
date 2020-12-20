@@ -1,0 +1,330 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="DigitalMediaDevices" xml:space="preserve">
+    <value>デジタル メディア デバイス</value>
+  </data>
+  <data name="PrintQueue" xml:space="preserve">
+    <value>印刷キュー</value>
+  </data>
+  <data name="WCEUSBS" xml:space="preserve">
+    <value>モバイル デバイス</value>
+  </data>
+  <data name="USB" xml:space="preserve">
+    <value>ユニバーサル シリアル バス コントローラー</value>
+  </data>
+  <data name="Media Center Extender" xml:space="preserve">
+    <value>Media Center Extender</value>
+  </data>
+  <data name="PnpPrinters" xml:space="preserve">
+    <value>IEEE 1394 と SCSI プリンター</value>
+  </data>
+  <data name="Dot4" xml:space="preserve">
+    <value>IEEE 1284.4 デバイス</value>
+  </data>
+  <data name="Dot4Print" xml:space="preserve">
+    <value>IEEE 1284.4 互換プリンター</value>
+  </data>
+  <data name="CDROM" xml:space="preserve">
+    <value>DVD/CD-ROM ドライブ</value>
+  </data>
+  <data name="Computer" xml:space="preserve">
+    <value>コンピューター</value>
+  </data>
+  <data name="DiskDrive" xml:space="preserve">
+    <value>ディスク ドライブ</value>
+  </data>
+  <data name="Display" xml:space="preserve">
+    <value>ディスプレイ アダプター</value>
+  </data>
+  <data name="fdc" xml:space="preserve">
+    <value>フロッピー ドライブ コントローラー</value>
+  </data>
+  <data name="hdc" xml:space="preserve">
+    <value>IDE ATA/ATAPI コントローラー</value>
+  </data>
+  <data name="Keyboard" xml:space="preserve">
+    <value>キーボード</value>
+  </data>
+  <data name="MEDIA" xml:space="preserve">
+    <value>サウンド、ビデオ、およびゲーム コントローラー</value>
+  </data>
+  <data name="Modem" xml:space="preserve">
+    <value>モデム</value>
+  </data>
+  <data name="Monitor" xml:space="preserve">
+    <value>モニター</value>
+  </data>
+  <data name="Mouse" xml:space="preserve">
+    <value>マウスとそのほかのポインティング デバイス</value>
+  </data>
+  <data name="MTD" xml:space="preserve">
+    <value>メモリ テクノロジ デバイス</value>
+  </data>
+  <data name="MultiFunction" xml:space="preserve">
+    <value>多機能アダプター</value>
+  </data>
+  <data name="Net" xml:space="preserve">
+    <value>ネットワーク アダプター</value>
+  </data>
+  <data name="NetClient" xml:space="preserve">
+    <value>ネットワーク クライアント</value>
+  </data>
+  <data name="NetService" xml:space="preserve">
+    <value>Network Service</value>
+  </data>
+  <data name="NetTrans" xml:space="preserve">
+    <value>ネットワーク プロトコル</value>
+  </data>
+  <data name="PCMCIA" xml:space="preserve">
+    <value>PCMCIA アダプター</value>
+  </data>
+  <data name="Ports" xml:space="preserve">
+    <value>ポート (COM と LPT)</value>
+  </data>
+  <data name="Printer" xml:space="preserve">
+    <value>プリンター</value>
+  </data>
+  <data name="SCSIAdapter" xml:space="preserve">
+    <value>記憶域コントローラー</value>
+  </data>
+  <data name="System" xml:space="preserve">
+    <value>システム デバイス</value>
+  </data>
+  <data name="Unknown" xml:space="preserve">
+    <value>ほかのデバイス</value>
+  </data>
+  <data name="FloppyDisk" xml:space="preserve">
+    <value>フロッピー ディスク ドライブ</value>
+  </data>
+  <data name="Processor" xml:space="preserve">
+    <value>プロセッサ</value>
+  </data>
+  <data name="MultiPortSerial" xml:space="preserve">
+    <value>マルチポート シリアル アダプター</value>
+  </data>
+  <data name="Memory" xml:space="preserve">
+    <value>メモリ デバイス</value>
+  </data>
+  <data name="SmartCardReader" xml:space="preserve">
+    <value>スマート カード読み取り装置</value>
+  </data>
+  <data name="Sensor" xml:space="preserve">
+    <value>センサー</value>
+  </data>
+  <data name="VolumeSnapshot" xml:space="preserve">
+    <value>記憶域ボリューム シャドウ コピー</value>
+  </data>
+  <data name="Biometric" xml:space="preserve">
+    <value>生体認証デバイス</value>
+  </data>
+  <data name="Proximity" xml:space="preserve">
+    <value>近接通信デバイス</value>
+  </data>
+  <data name="SoftwareDevice" xml:space="preserve">
+    <value>ソフトウェア デバイス</value>
+  </data>
+  <data name="1394" xml:space="preserve">
+    <value>IEEE 1394 ホスト コントローラー</value>
+  </data>
+  <data name="Infrared" xml:space="preserve">
+    <value>赤外線デバイス</value>
+  </data>
+  <data name="Image" xml:space="preserve">
+    <value>イメージング デバイス</value>
+  </data>
+  <data name="TapeDrive" xml:space="preserve">
+    <value>テープ ドライブ</value>
+  </data>
+  <data name="Volume" xml:space="preserve">
+    <value>記憶域ボリューム</value>
+  </data>
+  <data name="Battery" xml:space="preserve">
+    <value>バッテリ</value>
+  </data>
+  <data name="HIDClass" xml:space="preserve">
+    <value>ヒューマン インターフェイス デバイス</value>
+  </data>
+  <data name="61883" xml:space="preserve">
+    <value>61883 デバイス</value>
+  </data>
+  <data name="TS_Generic" xml:space="preserve">
+    <value>Generic Remote Desktop devices</value>
+  </data>
+  <data name="USBDevice" xml:space="preserve">
+    <value>ユニバーサル シリアル バス デバイス</value>
+  </data>
+  <data name="LegacyDriver" xml:space="preserve">
+    <value>プラグ アンド プレイではないドライバー</value>
+  </data>
+  <data name="SmartCard" xml:space="preserve">
+    <value>スマート カード</value>
+  </data>
+  <data name="SideShow" xml:space="preserve">
+    <value>Windows SideShow</value>
+  </data>
+  <data name="Ramdisk" xml:space="preserve">
+    <value>RAM ディスク ドライブ</value>
+  </data>
+  <data name="EhStorSilo" xml:space="preserve">
+    <value>IEEE 1667 サイロとコントロール デバイス</value>
+  </data>
+  <data name="SDHost" xml:space="preserve">
+    <value>SD ホスト アダプター</value>
+  </data>
+  <data name="Transfer Cable" xml:space="preserve">
+    <value>転送ケーブル デバイス</value>
+  </data>
+  <data name="AVC" xml:space="preserve">
+    <value>オーディオ/ビデオ制御デバイス</value>
+  </data>
+  <data name="AudioEndpoint" xml:space="preserve">
+    <value>オーディオの入力および出力</value>
+  </data>
+  <data name="WSDPrintDevice" xml:space="preserve">
+    <value>WSD 印刷プロバイダー</value>
+  </data>
+  <data name="BluetoothVirtual" xml:space="preserve">
+    <value>Bluetooth Virtual Devices</value>
+  </data>
+  <data name="MediumChanger" xml:space="preserve">
+    <value>メディア チェンジャー デバイス</value>
+  </data>
+  <data name="SBP2" xml:space="preserve">
+    <value>SBP2 IEEE 1394 デバイス</value>
+  </data>
+  <data name="XnaComposite" xml:space="preserve">
+    <value>Xbox 360 周辺機器</value>
+  </data>
+  <data name="SecurityDevices" xml:space="preserve">
+    <value>セキュリティ デバイス</value>
+  </data>
+  <data name="SmartCardFilter" xml:space="preserve">
+    <value>スマート カード フィルター</value>
+  </data>
+  <data name="Bluetooth" xml:space="preserve">
+    <value>Bluetooth</value>
+  </data>
+  <data name="WPD" xml:space="preserve">
+    <value>ポータブル デバイス</value>
+  </data>
+  <data name="Firmware" xml:space="preserve">
+    <value>ファームウェア</value>
+  </data>
+</root>
